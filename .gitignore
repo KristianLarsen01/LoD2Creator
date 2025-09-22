@@ -1,0 +1,34 @@
+# Virtuelle miljøer
+venv/
+.venv/
+
+# Python-artefakter
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.dist/
+build/
+dist/
+
+# Verktøy/cache
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.cache/
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hemmeligheter/konfig
+.env
+.env.*
+*.env
