@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+#run source .venv/bin/activate 
 #run command: python visualize_laz.py sample_roofdata_50 --autoscale --point-size 4 --color-by file --legend
 
 
