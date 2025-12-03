@@ -9,8 +9,8 @@ dependencies:
   - shapely
   - numpy
   - pyproj
+  - fiona
   - pip
   - pip:
       - open3d
-
 prefix: /opt/miniconda3/envs/lod2creator
