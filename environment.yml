@@ -1,0 +1,16 @@
+name: lod2creator
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - laspy
+  - rtree
+  - geopandas
+  - shapely
+  - numpy
+  - pyproj
+  - pip
+  - pip:
+      - open3d
+
+prefix: /opt/miniconda3/envs/lod2creator
