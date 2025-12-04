@@ -7,6 +7,7 @@
 #### Input
 
 • Segmented roof point clouds (30pts)
+
 • Building footprints from FKB or OSM
 
 #### Output
@@ -37,8 +38,9 @@
 ## Data
 You need 
 
-sample_roofdata_50 from task
-FKB_Bygning Trondheim kommune from GeoNorge
+• sample_roofdata_50 from task
+
+• FKB_Bygning Trondheim kommune from GeoNorge
 
 ## Install environment
 conda env create -f environment.yml
@@ -51,6 +53,7 @@ conda env export --from-history > environment.yml
 
 ## Update environment after pulling changes
 conda activate lod2creator
+
 conda env update -f environment.yml --prune
 
 # How To (Remember to have activated conda environment)
